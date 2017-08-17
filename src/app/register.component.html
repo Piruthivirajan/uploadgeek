@@ -1,0 +1,31 @@
+
+
+<h1 class="header-agileits w3 w3l agile-info">Register Form</h1>
+<div class="content-w3ls">
+	<div class="form-w3layouts">
+		<form (submit)="addEvent()">
+			<div class="form-control"> 
+				<label class="header">Name <span>*</span> </label>
+				<input type="text" id="name" name="name" [(ngModel)]="model.name" placeholder="Your Name" title="Please enter your Full Name" required="">
+				<div class="clear"></div>
+			</div>
+		<br /><br />
+			<div class="form-control">	
+				<label class="header">Title<span>*</span> </label>
+				<input type="text" id="email" name="email" [(ngModel)]="model.title" placeholder="Your Title" title="Please enter a title" required="">
+				<div class="clear"></div>
+			</div>
+		<br /><br />
+		
+		
+		
+
+		
+			
+			<div class="form-control"  style="text-align:center;">
+				<input type="submit" class="register" value="Send">
+				<div class="clear"></div>
+			</div>	
+		</form>
+	</div>
+</div>
