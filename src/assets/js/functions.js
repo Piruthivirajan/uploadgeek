@@ -53,7 +53,7 @@ jQuery(document).ready(function($) {
 
 
 
-	/$('#time_countdown').countDown({
+	$('#time_countdown').countDown({
       
         // targetOffset: {
         //     'day': 30,
